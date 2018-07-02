@@ -1,0 +1,30 @@
+.sort-by-wrapper {
+    padding-top: 4px;
+    max-width: 740px;
+}
+.sort-by-wrapper > div {
+    float: left;
+    margin-right: 10px;
+    font-size: 13px;
+    color: #97a7a1;
+}
+.sort-by-wrapper > div.active {
+    color: #000000;
+}
+.sort-by-wrapper > div.active i {
+    color: #000000;
+}
+.sort-by-wrapper > div:not(.sort-title) {
+    cursor: pointer;
+}
+.sort-by-wrapper > div:not(.sort-title):hover {
+    color: #000000;
+}
+.sort-by-wrapper > div.sort-title {
+    margin-right: 15px;
+    margin-bottom: 21px;
+}
+.sort-by-wrapper > div i {
+    color: #ffffff;
+    font-size: 8px;
+}

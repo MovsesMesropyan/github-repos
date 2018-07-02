@@ -1,0 +1,6 @@
+.repository-row .fas.fa-star {
+    cursor: pointer;
+}
+.repository-row .favorite .fas.fa-star {
+    color: #ffff00;
+}

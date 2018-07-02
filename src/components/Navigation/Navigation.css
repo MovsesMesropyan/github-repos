@@ -1,0 +1,40 @@
+.navigation-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    border-bottom: 1px solid #f5f5f5;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(204,204,204,1);
+    -moz-box-shadow: 0 2px 5px 0 rgba(204,204,204,1);
+    box-shadow: 0 2px 5px 0 rgba(204,204,204,1);
+}
+.navigation-container .uk-navbar-container {
+    margin: 0 auto;
+    display: flex;
+}
+.navigation-container .uk-navbar-nav .active {
+    color: #333333;
+}
+.navigation-container .favorite-wrapper {
+    position: relative;
+}
+.navigation-container .favorite-wrapper .favorite-count {
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+}
+.navigation-container .favorite-wrapper .fas.fa-star {
+    font-size: 40px;
+}
+.navigation-container .favorite-wrapper.active .fas.fa-star {
+    color: #ffff00;
+}
+.navigation-container .uk-navbar-left .uk-navbar-nav a:first-child {
+ padding-left: 0;
+}
+.navigation-container .uk-navbar-right .uk-navbar-nav a:last-child {
+    padding-right: 0;
+}

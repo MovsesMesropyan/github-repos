@@ -1,0 +1,18 @@
+@import './../node_modules/uikit/dist/css/uikit.min.css';
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.uk-notification-message {
+  position: relative;
+  margin-bottom: 10px;
+  padding: 15px;
+  background: #f8f8f8;
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.4;
+  cursor: pointer;
+}
+.uk-notification-message-warning {
+  color: #faa05a;
+}

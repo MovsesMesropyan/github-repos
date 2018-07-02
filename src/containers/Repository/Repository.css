@@ -1,0 +1,36 @@
+.repository {
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+.repository .header {
+    display: flex;
+    align-items: center;
+}
+.repository .header h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.repository .header .fas.fa-star {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.repository .header.favorite .fas.fa-star {
+    color: #ffff00;
+}
+.repository .sub-header {
+    margin-bottom: 30px;
+}
+.repository .sub-header p {
+    margin: 0;
+}
+.repository td.avatar {
+    width: 40px;
+}
+.repository td.avatar img {
+    margin-top: -8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

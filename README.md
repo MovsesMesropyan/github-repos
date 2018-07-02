@@ -1,4 +1,5 @@
-# Github Repository List - React-little-router and React-Redux Example
+# Github Repository List
+# React-little-router and React-Redux Example
 
 
 git clone https://github.com/MovsesMesropyan/github-repos.git
